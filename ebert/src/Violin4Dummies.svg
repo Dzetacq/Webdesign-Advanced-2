@@ -9,9 +9,9 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="210mm"
-   height="297mm"
-   viewBox="0 0 210 297"
+   width="102.98378mm"
+   height="52.344414mm"
+   viewBox="0 0 102.98378 52.344414"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
@@ -26,16 +26,20 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.7"
-     inkscape:cx="297.302"
-     inkscape:cy="595.57104"
+     inkscape:cx="-119.4073"
+     inkscape:cy="-44.471995"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
-     inkscape:window-width="1920"
-     inkscape:window-height="986"
-     inkscape:window-x="-11"
-     inkscape:window-y="-11"
-     inkscape:window-maximized="1" />
+     inkscape:window-width="2400"
+     inkscape:window-height="1256"
+     inkscape:window-x="2869"
+     inkscape:window-y="123"
+     inkscape:window-maximized="1"
+     fit-margin-top="0.1"
+     fit-margin-left="0.1"
+     fit-margin-right="0.1"
+     fit-margin-bottom="0.1" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,7 +55,8 @@
   <g
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     id="layer1">
+     id="layer1"
+     transform="translate(-36.737967,-75.310869)">
     <flowRoot
        xml:space="preserve"
        id="flowRoot4526"
@@ -67,14 +72,14 @@
          id="flowPara4552" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4538"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><flowRegion
+       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"><flowRegion
          id="flowRegion4540"><rect
            id="rect4542"
            width="562.85712"
            height="424.28571"
            x="-171.42857"
            y="349.66254" /></flowRegion><flowPara
-         id="flowPara4544"></flowPara></flowRoot>    <flowRoot
+         id="flowPara4544" /></flowRoot>    <flowRoot
        xml:space="preserve"
        id="flowRoot4560"
        style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
@@ -88,7 +93,7 @@
          id="flowPara4566"
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:64px;font-family:Yellowtail;-inkscape-font-specification:Yellowtail" /></flowRoot>    <g
        id="g4570"
-       transform="matrix(0.06971401,0.01211324,-0.0140438,0.08082473,51.019205,94.07947)"
+       transform="matrix(0.06909438,0.01525581,-0.01768722,0.08010635,41.105316,64.650054)"
        style="fill:#c3001f;fill-opacity:1">
       <path
          id="path4568"
@@ -96,35 +101,32 @@
          inkscape:connector-curvature="0"
          style="fill:#c3001f;fill-opacity:1;stroke:#000000" />
     </g>
-    <flowRoot
+    <text
        xml:space="preserve"
-       id="flowRoot4586"
-       style="font-style:normal;font-weight:normal;font-size:96px;font-family:sans-serif;text-align:center;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,0.60476183,101.14644)"><flowRegion
-         id="flowRegion4588"
-         style="text-align:center;text-anchor:middle"><rect
-           id="rect4590"
-           width="1597.1428"
-           height="1030"
-           x="-397.14285"
-           y="-21.766029"
-           style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
-         id="flowPara4594"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.5;font-family:Yellowtail;-inkscape-font-specification:Yellowtail">  <flowSpan
-   style="line-height:1.20000005"
-   id="flowSpan4612">Violin</flowSpan></flowPara><flowPara
-         id="flowPara4596"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.20000005;font-family:Yellowtail;-inkscape-font-specification:Yellowtail">Dummies</flowPara></flowRoot>    <flowRoot
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="96.362373"
+       y="94.026787"
+       id="text934"><tspan
+         sodipodi:role="line"
+         id="tspan932"
+         x="96.362373"
+         y="94.026787"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.29999995;font-family:Yellowtail;-inkscape-font-specification:Yellowtail;text-align:center;text-anchor:middle;stroke-width:0.26458332">  Violin</tspan><tspan
+         sodipodi:role="line"
+         x="96.362373"
+         y="127.04678"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:1.29999995;font-family:Yellowtail;-inkscape-font-specification:Yellowtail;text-align:center;text-anchor:middle;stroke-width:0.26458332"
+         id="tspan936">Dummies</tspan></text>
+    <text
        xml:space="preserve"
-       id="flowRoot4602"
-       style="font-style:normal;font-weight:normal;font-size:96px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       transform="matrix(0.26458333,0,0,0.26458333,9.1470243,-3.6285714)"><flowRegion
-         id="flowRegion4604"><rect
-           id="rect4606"
-           width="298.57144"
-           height="120"
-           x="260"
-           y="436.80539" /></flowRegion><flowPara
-         id="flowPara4608"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:96px;font-family:Yellowtail;-inkscape-font-specification:Yellowtail;fill:#c3001f;fill-opacity:1">or</flowPara></flowRoot>  </g>
+       style="font-style:normal;font-weight:normal;font-size:25.39999962px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="67.279762"
+       y="106.65118"
+       id="text940"><tspan
+         sodipodi:role="line"
+         id="tspan938"
+         x="67.279762"
+         y="106.65118"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:Yellowtail;-inkscape-font-specification:Yellowtail;fill:#c3001f;fill-opacity:1;stroke-width:0.26458332">or</tspan></text>
+  </g>
 </svg>

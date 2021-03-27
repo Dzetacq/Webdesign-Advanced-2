@@ -1,0 +1,32 @@
+:root {
+    --accent-color: #c3001f;
+    --accent-darker: #9c001a;
+}
+
+@font-face {
+    font-family: 'yellowtail';
+    src: url('Yellowtail-Regular-webfont.woff');
+}
+
+.navbar-light .navbar-nav .active>.nav-link {
+    color: var(--accent-color);
+    font-family: 'yellowtail';
+}
+
+.accent {
+    color: var(--accent-color);
+}
+.bg-accent {
+    background-color: var(--accent-color);
+    color: white;
+}
+
+.bg-accent:hover {
+    background-color: var(--accent-darker);
+    color: white;
+}
+
+body { 
+    padding-top: 120px; 
+}
+
