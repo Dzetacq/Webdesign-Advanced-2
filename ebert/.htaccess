@@ -1,0 +1,4 @@
+Options All -Indexes
+
+ErrorDocument 403 /ebert/html/error/403.html
+ErrorDocument 404 /ebert/html/error/404.html
