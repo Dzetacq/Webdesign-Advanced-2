@@ -1,0 +1,24 @@
+body {
+  @include text($bg-color, $primary, $font, $font-size);
+}
+
+h1, h2, h3 {
+  @include text($bg-color, $accent, $font-accent, 0);
+  margin-top: $distance*2;
+}
+
+.accent {
+  color: $accent;
+}
+
+.bg-accent {
+  @include colors($accent, $accent-contrast);
+  &:hover {
+    @include colors($accent-dark, $accent-contrast);
+  }
+}
+
+main { 
+  padding-top: $header-height; 
+}
+

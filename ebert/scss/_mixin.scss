@@ -1,0 +1,15 @@
+@mixin colors($bg,$front) {
+    background-color: $bg;
+    color: $front;
+}
+
+@mixin text($bg, $front, $fam, $size) {
+    @if $bg != 0 {
+        background-color: $bg;
+    }
+    color: $front;
+    font-family: $fam;
+    @if $size != 0 {
+        font-size: $size;
+    }
+}
