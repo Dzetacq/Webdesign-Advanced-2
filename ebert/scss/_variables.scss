@@ -3,18 +3,23 @@
 $font: 'Roboto';
 $font-size: 1rem;
 $font-size-plus: $font-size*1.3;
-$font-accent: 'Yellowtail';
-$bg-color: white;
-$primary: #111;
-$accent: #c3001f;
-$accent-dark: #9c001a;
+$font-secondary: 'Yellowtail';
+$dark: #111;
+$primary: #c3001f;
+$primary-dark: darken($primary, 10%);
+$bg-color: #f8f9fa;
+$secondary: complement($primary);
+$gray-100: $bg-color;
 $distance: 10px;
-$accent-contrast: $bg-color;
 $header-height: 110px;
 $header-extras: 43px;
+$footer-height: 57px;
+$image-size-normal: 200px;
+$image-size-large: $image-size-normal*1.5;
+$image-size-small: $image-size-normal*0.5;
 
 $colors: (
-        "danger": #ff0019,
+        "danger": $secondary,
         "success": #00b62a,
         "info": #009bb3
 );

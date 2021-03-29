@@ -1,11 +1,14 @@
 @import "variables";
 @import "mixin";
 
+@import '../node_modules/bootstrap/scss/bootstrap';
+
 @import "reboot";
+@import "block";
 @import "table";
 @import "list";
 @import "hyperlink";
 @import "classes";
 @import "header";
-@import "footer"
+@import "form";
 

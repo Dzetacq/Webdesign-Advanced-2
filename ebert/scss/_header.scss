@@ -1,17 +1,13 @@
-header {
-    background-color: $bg-color;
-}
-
 .navbar .navbar-brand img {
     height: $header-height - $header-extras;
 }
 
 .navbar-light .navbar-nav {
     & .active>.nav-link {
-        @include text(0, $accent, $font-accent, $font-size-plus);
+        @include text($primary, $font-secondary, $font-size-plus);
         line-height: $font-size-plus;
     }
     & .nav-link:hover {
-        color: $accent;
+        color: $primary;
     }
 }

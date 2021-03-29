@@ -3,13 +3,34 @@
     color: $front;
 }
 
-@mixin text($bg, $front, $fam, $size) {
-    @if $bg != 0 {
-        background-color: $bg;
-    }
+@mixin text($front, $fam, $size) {
     color: $front;
     font-family: $fam;
     @if $size != 0 {
         font-size: $size;
     }
+}
+
+@mixin blocks ($clear, $float) {
+    &:not(.no-clear) {
+      clear:$clear
+    }
+    & img {
+      float: $float;
+    }
+    & div:not(.alert) {
+      text-align: $float;
+      clear:$clear
+    }
+  }
+
+@mixin blockImage() {
+    object-fit: cover;
+    border-radius: 100%;
+    border: 3px solid $bg-color;
+    height: $image-size-normal;
+    width: $image-size-normal;
+    box-shadow: 0 0 0 5px $primary;
+    shape-outside: circle();
+    margin: $distance*3;
 }

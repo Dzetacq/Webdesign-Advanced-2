@@ -1,5 +1,9 @@
 ol, ul {
-  list-style-type: upper-roman;
-  margin-left: $distance*3;
+  margin-top: $distance*2;
+  margin-left: $distance;
+  list-style-position: inside;
+}
+li {
+  margin-bottom: $distance;
 }
 

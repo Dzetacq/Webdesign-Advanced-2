@@ -1,24 +1,33 @@
 body {
-  @include text($bg-color, $primary, $font, $font-size);
+  @include text($dark, $font, $font-size);
+  overflow-y: scroll;
 }
 
-h1, h2, h3 {
-  @include text($bg-color, $accent, $font-accent, 0);
+h1, h2, h3, button {
+  @include text($primary, $font-secondary, 0);
   margin-top: $distance*2;
+  margin-bottom: $distance*2;
 }
 
-.accent {
-  color: $accent;
+button.btn {
+  font-size: 1.4rem;
 }
 
-.bg-accent {
-  @include colors($accent, $accent-contrast);
-  &:hover {
-    @include colors($accent-dark, $accent-contrast);
+.modal {
+  & h1, & h2, & h3 {
+    margin-top: 0;
+  }
+  & .modal-footer button:not(:last-of-type) {
+    margin-right: 2px;
   }
 }
 
-main { 
-  padding-top: $header-height; 
+main {
+  margin-top: $header-height; 
+  margin-bottom: $footer-height;
+  &>:last-child {
+    clear: both;
+  }
 }
+
 

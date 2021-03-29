@@ -1,0 +1,32 @@
+.block {
+    &:nth-child(odd) {
+      @include blocks(right, left)
+    }
+    &:nth-child(even) {
+      @include blocks(left, right)
+    }
+    &.block-lg>img {
+      height: $image-size-large;
+      width: $image-size-large;
+    }
+    &>img {
+      @include blockImage();
+      object-position: 0px 0px;
+    }
+}
+
+.block-intro>img {
+    @include blockImage();
+    height: $image-size-large;
+    width: $image-size-large;
+}
+
+.block span>img, .block-intro span>img {
+    @include blockImage();
+    height: $image-size-small;
+    width: $image-size-small;
+}
+
+.alert {
+    clear:both;
+}

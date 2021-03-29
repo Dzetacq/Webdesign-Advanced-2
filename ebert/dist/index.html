@@ -6,46 +6,83 @@
 	</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 	<link rel="stylesheet" href="/ebert/dist/css/style.css">
 	<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
 	<script src="https://kit.fontawesome.com/c9066669eb.js"></script>
 	<script src="/ebert/dist/js/index.js"></script>
 </head>
-<body>
+<body class="bg-light">
 	<header></header>
-	<main class="container text-center mt- w-50">
-		<h1>test</h1>
-		<div class="alert alert-primary alert-dismissible fade show" role="alert">
-			Under construction
-			<button type="button" class="close" data-dismiss="alert" aria-label="Close">
-				<span aria-hidden="true">&times;</span>
-			</button>
-		</div>
-		<button type="button" class="btn bg-accent" data-toggle="modal" data-target="#example-modal">
-			Pop-up test
+	<main class="container text-center w-75">
+		<h1>Violin for Dummies</h1>
+		<article>
+			<p>Welcome to Violin for Dummies!</p>
+			<p>
+				If you'd like to get some tips and tricks on how to improve your violin playing
+				or on how to get started playing the violin, you're at the right address!
+			</p>
+			<p>To jumpstart your playing, hit the button below!</p>
+		</article>
+		<button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#get-started">
+			Start learning!
 		</button>
-		<div class="modal fade" id="example-modal">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<div class="modal-header">
-						<h2 class="modal-title">Test</h2>
-						<button type="button" class="close" aria-label="Close" data-dismiss="modal">
-							<span aria-hidden="true">&times;</span>
-						</button>
-					</div>
-					<div class="modal-body">
-						<p>Voorbeeld pop-up!</p>
-					</div>
-					<div class="modal-footer">
-						<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+		<article>
+			<h2>About me</h2>
+			<div class="block">
+				<img src="/ebert/src/images/masterproef.jpg" alt="Foto Masterproef Ebert">
+				<div>
+					<p>
+						My name is Ebert Rens, and I've been playing the violin since I was 4 years old.
+						I've studied under Saïda Willekens, Koen Rens and Elisa Kawaguti, 
+						but have had lessons, masterclasses and workshops from many others.
+					</p>
+					<p>
+						In 2014, I enrolled in LUCA School of Arts, Campus Lemmens, where I continued my violin studies
+						under the watchful eye of Elisa Kawaguti.
+					</p>
+				</div>
+			</div>
+			<div class="block no-clear">
+				<img src="/ebert/src/images/orchestra.jpg" alt="orchestra selfie">
+				<div>
+					<p>
+						I've been playing concerts in numerous countries like Belgium, Japan, Spain, Lithuania, ... 
+						Individually, in groups and with chambermusic ensembles or orchestras
+					</p>
+					<p>
+						If you want me to teach you a thing or two, just hit the button above!
+					</p>
+				</div>
+			</div>
+		</article>
+		
+		<p></p>
+	</main>
+	<footer></footer>
+	<div class="modal fade" id="get-started">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h2 class="modal-title">Get started</h2>
+					<button type="button" class="close" id="get-closed" aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p>
+						Pick a hand to learn about! <br>
+						for beginners, we recommend the left hand
+					</p>
+				</div>
+				<div class="modal-footer">
+					<div class="btn-group btn-block" role="group">
+						<button type="button" id="left" class="btn btn-primary">Left</button>
+						<button type="button" id="right" class="btn btn-primary">Right</button>
 					</div>
 				</div>
 			</div>
 		</div>
-	</main>
-	<footer></footer>
-
+	</div>
 	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>

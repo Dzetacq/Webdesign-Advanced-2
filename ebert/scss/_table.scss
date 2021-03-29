@@ -1,15 +1,15 @@
 table {
   border-collapse: collapse;
-  border: $distance/5 solid $accent;
+  border: $distance/5 solid $primary;
 
   th {
-    @include colors($accent, $bg-color);
+    color: $primary;
     padding: $distance*2;
-    border: 1px solid $primary;}
+    border: 1px solid $secondary;}
 
   td {
     text-align: center;
     padding: $distance;
-    border: 1px solid $primary;}
+    border: 1px solid $secondary;}
 }
 
