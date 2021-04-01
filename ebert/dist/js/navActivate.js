@@ -1,5 +1,4 @@
 $(function() {
-    console.log(document.location.href);
     pageName = document.location.href.match(/[^\/]+$/)[0];
     var element = "";
     switch (pageName) {
@@ -12,8 +11,11 @@ $(function() {
         case "right.html":
             element = "nav-right";
             break;
+        default:
+            element = "";
+            break;
     }
-    console.log(element);
-    console.log($("header li"));
-    $("#" + element).addClass('active');
+    if (element != "") {
+        $("#" + element).addClass('active');
+    }
 })

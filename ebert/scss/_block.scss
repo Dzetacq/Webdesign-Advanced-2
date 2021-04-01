@@ -1,10 +1,12 @@
 .block {
+  @media only screen and (min-width: $medium-treshold) {
     &:nth-child(odd) {
-      @include blocks(right, left)
+      @include blocks(right, left);
     }
     &:nth-child(even) {
-      @include blocks(left, right)
+      @include blocks(left, right);
     }
+  }
     &.block-lg>img {
       height: $image-size-large;
       width: $image-size-large;

@@ -10803,30 +10803,27 @@ main > :last-child {
   clear: both;
 }
 
-.block:nth-child(odd):not(.no-clear) {
-  clear: right;
-}
-
-.block:nth-child(odd) img {
-  float: left;
-}
-
-.block:nth-child(odd) div:not(.alert) {
-  text-align: left;
-  clear: right;
-}
-
-.block:nth-child(even):not(.no-clear) {
-  clear: left;
-}
-
-.block:nth-child(even) img {
-  float: right;
-}
-
-.block:nth-child(even) div:not(.alert) {
-  text-align: right;
-  clear: left;
+@media only screen and (min-width: 720px) {
+  .block:nth-child(odd):not(.no-clear) {
+    clear: right;
+  }
+  .block:nth-child(odd) img {
+    float: left;
+  }
+  .block:nth-child(odd) div:not(.alert) {
+    text-align: left;
+    clear: right;
+  }
+  .block:nth-child(even):not(.no-clear) {
+    clear: left;
+  }
+  .block:nth-child(even) img {
+    float: right;
+  }
+  .block:nth-child(even) div:not(.alert) {
+    text-align: right;
+    clear: left;
+  }
 }
 
 .block.block-lg > img {
